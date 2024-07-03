@@ -391,8 +391,8 @@ export default function App() {
         {localStorage.getItem("score") == '"X"'
           ? "X"
           : localStorage.getItem("score") == '"O"'
-          ? "O"
-          : "-"}{" "}
+            ? "O"
+            : "-"}{" "}
         is winner
       </h2>
       {/* <h2>X : {xScore}  Y:{yScore}</h2> */}
@@ -400,35 +400,35 @@ export default function App() {
       <div className="boxes" ref={ref9}>
         <div className="row1">
           <div className="box" onClick={handleClick}>
-            <b ref={refer}>1</b>
+            <b ref={refer}></b>
           </div>
           <div className="box" onClick={handleClick1}>
-            <b ref={refer1}>2</b>
+            <b ref={refer1}></b>
           </div>
           <div className="box" onClick={handleClick2}>
-            <b ref={refer2}>3</b>
+            <b ref={refer2}></b>
           </div>
         </div>
         <div className="row2">
           <div className="box" onClick={handleClick3}>
-            <b ref={refer3}>4</b>
+            <b ref={refer3}></b>
           </div>
           <div className="box" onClick={handleClick4}>
-            <b ref={refer4}>5</b>
+            <b ref={refer4}></b>
           </div>
           <div className="box" onClick={handleClick5}>
-            <b ref={refer5}>6</b>
+            <b ref={refer5}></b>
           </div>
         </div>
         <div className="row3">
           <div className="box" onClick={handleClick6}>
-            <b ref={refer6}>7</b>
+            <b ref={refer6}></b>
           </div>
           <div className="box" onClick={handleClick7}>
-            <b ref={refer7}>8</b>
+            <b ref={refer7}></b>
           </div>
           <div className="box" onClick={handleClick8}>
-            <b ref={refer8}>9</b>
+            <b ref={refer8}></b>
           </div>
         </div>
       </div>
